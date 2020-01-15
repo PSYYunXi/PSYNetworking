@@ -13,8 +13,7 @@ Pod::Spec.new do |spec|
   spec.dependency "AFNetworking", "~> 3.2.1"
   spec.public_header_files = "PSYNetworking/PSYUtils.h"
   
-  spec.default_subspec = "category"
-  spec.subspec 'Category' do |ss|
-  ss.source_files = "PSYNetworking/category/*.{h,m}"
-  
+  spec.subspec "category" do |ss|
+  ss.source_files = "PSYNetworking/category/*.*"
+  end
 end
