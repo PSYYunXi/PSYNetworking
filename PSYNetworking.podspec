@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/PSYYunXi/PSYNetworking.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
   spec.source_files  = "PSYNetworking/*.*"
-  spec.dependency "AFNetworking", "~> 3.2.1"
+  spec.dependency "AFNetworking", "~> 3.2.1",:git => "https://github.com/CocoaPods/Specs.git"
 
 end

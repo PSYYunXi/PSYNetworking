@@ -58,6 +58,7 @@
 		E6DA582C23CEC13A00CB7A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6DA583923CEC20900CB7A25 /* PSYNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSYNetworking.h; sourceTree = "<group>"; };
 		E6DA583A23CEC20900CB7A25 /* PSYNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSYNetworking.m; sourceTree = "<group>"; };
+		E6DA583E23CEF59300CB7A25 /* PSYUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSYUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,11 +164,20 @@
 		E6DA583823CEC1F800CB7A25 /* PSYNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				E6DA583923CEC20900CB7A25 /* PSYNetworking.h */,
-				E6DA583A23CEC20900CB7A25 /* PSYNetworking.m */,
+				E6DA583E23CEF59300CB7A25 /* PSYUtils.h */,
+				E6DA583C23CEF56000CB7A25 /* category */,
 			);
 			name = PSYNetworking;
 			path = ../../PSYNetworking;
+			sourceTree = "<group>";
+		};
+		E6DA583C23CEF56000CB7A25 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA583923CEC20900CB7A25 /* PSYNetworking.h */,
+				E6DA583A23CEC20900CB7A25 /* PSYNetworking.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,16 +1,13 @@
 //
-//  PSYNetworking.m
+//  PSYUtils.h
 //  PSYNetworkingDemo
 //
 //  Created by psylife-mini on 2020/1/15.
 //  Copyright © 2020 psylife-mini. All rights reserved.
 //
 
-#import "PSYNetworking.h"
+#ifndef PSYUtils_h
+#define PSYUtils_h
 
-@implementation PSYNetworking
 
-
-#pragma mark - tags
-//我更新了一些内容
-@end
+#endif /* PSYUtils_h */
