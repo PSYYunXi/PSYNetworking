@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFNetworking.h>
 
-@class AFURLSessionManager;
-@class AFHTTPSessionManager;
 NS_ASSUME_NONNULL_BEGIN
 @interface PSYNetworking : NSObject
 
