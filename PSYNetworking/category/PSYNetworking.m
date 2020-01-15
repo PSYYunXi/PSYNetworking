@@ -7,7 +7,6 @@
 //
 
 #import "PSYNetworking.h"
-#import <AFNetworking.h>
 
 @implementation PSYNetworking
 
