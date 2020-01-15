@@ -8,9 +8,6 @@
 
 #import "PSYNetworking.h"
 
-
-@class AFHTTPSessionManager;
-@class AFURLSessionManager;
 @implementation PSYNetworking
 
 
