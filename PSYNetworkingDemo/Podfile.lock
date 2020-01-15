@@ -19,12 +19,12 @@ DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
 
-PODFILE CHECKSUM: b963e7304adee0dff08e97a0b63605c332c21c71
+PODFILE CHECKSUM: 0c5e10b4e446621aeede8b958f21623d60a742d4
 
 COCOAPODS: 1.9.0.beta.2
