@@ -9,10 +9,10 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.source       = { :git => "https://github.com/PSYYunXi/PSYNetworking.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
-  spec.source_files  = "PSYNetworking/PSYUtils.h"
+  spec.source_files  = "PSYNetworking/*.*"
   spec.dependency "AFNetworking", "~> 3.2.1"
   
-  spec.subspec 'Category' do |ss|
-  ss.source_files = "PSYNetworking/category/*.{h,m}"
+  #spec.subspec 'Category' do |ss|
+  #ss.source_files = "PSYNetworking/category/*.{h,m}"
   
 end
