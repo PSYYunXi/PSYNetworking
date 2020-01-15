@@ -59,6 +59,7 @@
 		E6DA583923CEC20900CB7A25 /* PSYNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSYNetworking.h; sourceTree = "<group>"; };
 		E6DA583A23CEC20900CB7A25 /* PSYNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSYNetworking.m; sourceTree = "<group>"; };
 		E6DA583E23CEF59300CB7A25 /* PSYUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSYUtils.h; sourceTree = "<group>"; };
+		E6DA584023CF0E9300CB7A25 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +140,7 @@
 				E6DA581123CEC13900CB7A25 /* LaunchScreen.storyboard */,
 				E6DA581423CEC13900CB7A25 /* Info.plist */,
 				E6DA581523CEC13900CB7A25 /* main.m */,
+				E6DA584023CF0E9300CB7A25 /* PrefixHeader.pch */,
 			);
 			path = PSYNetworkingDemo;
 			sourceTree = "<group>";
@@ -511,6 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TQ772LEHW3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PSYNetworkingDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = PSYNetworkingDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -530,6 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TQ772LEHW3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PSYNetworkingDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = PSYNetworkingDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

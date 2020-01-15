@@ -7,7 +7,7 @@
 //
 
 #import "PSYNetworking.h"
-#import <AFNetworking/AFNetworking.h>
+
 
 @class AFHTTPSessionManager;
 @class AFURLSessionManager;
