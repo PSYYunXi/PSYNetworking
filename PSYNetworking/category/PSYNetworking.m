@@ -7,6 +7,7 @@
 //
 
 #import "PSYNetworking.h"
+#import <AFNetworking.h>
 
 @implementation PSYNetworking
 
@@ -14,4 +15,5 @@
 #pragma mark - tags
 //我更新了一些内容
 //这是第三版了
+//这是0.9版本了
 @end

@@ -9,6 +9,6 @@
 #ifndef PSYUtils_h
 #define PSYUtils_h
 
-#import <AFNetworking.h>
+
 
 #endif /* PSYUtils_h */
