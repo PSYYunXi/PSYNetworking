@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "PSYNetworking"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "this is for psylifers"
   spec.homepage     = "https://github.com/PSYYunXi/PSYNetworking"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
