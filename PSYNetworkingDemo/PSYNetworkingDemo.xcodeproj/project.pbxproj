@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD2E3DA828AC1A58506262B /* libPods-PSYNetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 698477C4517796338ABEAE12 /* libPods-PSYNetworkingDemo.a */; };
+		E6DA580523CEC13800CB7A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA580423CEC13800CB7A25 /* AppDelegate.m */; };
+		E6DA580B23CEC13800CB7A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA580A23CEC13800CB7A25 /* ViewController.m */; };
+		E6DA580E23CEC13800CB7A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DA580C23CEC13800CB7A25 /* Main.storyboard */; };
+		E6DA581023CEC13900CB7A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6DA580F23CEC13900CB7A25 /* Assets.xcassets */; };
+		E6DA581323CEC13900CB7A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DA581123CEC13900CB7A25 /* LaunchScreen.storyboard */; };
+		E6DA581623CEC13900CB7A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA581523CEC13900CB7A25 /* main.m */; };
+		E6DA582023CEC13A00CB7A25 /* PSYNetworkingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA581F23CEC13A00CB7A25 /* PSYNetworkingDemoTests.m */; };
+		E6DA582B23CEC13A00CB7A25 /* PSYNetworkingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA582A23CEC13A00CB7A25 /* PSYNetworkingDemoUITests.m */; };
+		E6DA583B23CEC20900CB7A25 /* PSYNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA583A23CEC20900CB7A25 /* PSYNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6DA581C23CEC13A00CB7A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6DA57F823CEC13800CB7A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6DA57FF23CEC13800CB7A25;
+			remoteInfo = PSYNetworkingDemo;
+		};
+		E6DA582723CEC13A00CB7A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6DA57F823CEC13800CB7A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6DA57FF23CEC13800CB7A25;
+			remoteInfo = PSYNetworkingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		698477C4517796338ABEAE12 /* libPods-PSYNetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PSYNetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CB0256B5907DB05198B2B9 /* Pods-PSYNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSYNetworkingDemo.debug.xcconfig"; path = "Target Support Files/Pods-PSYNetworkingDemo/Pods-PSYNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CC797A76EE9889518CC9C07A /* Pods-PSYNetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSYNetworkingDemo.release.xcconfig"; path = "Target Support Files/Pods-PSYNetworkingDemo/Pods-PSYNetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E6DA580023CEC13800CB7A25 /* PSYNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSYNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DA580323CEC13800CB7A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6DA580423CEC13800CB7A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6DA580923CEC13800CB7A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6DA580A23CEC13800CB7A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6DA580D23CEC13800CB7A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6DA580F23CEC13900CB7A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6DA581223CEC13900CB7A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6DA581423CEC13900CB7A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6DA581523CEC13900CB7A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6DA581B23CEC13A00CB7A25 /* PSYNetworkingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSYNetworkingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DA581F23CEC13A00CB7A25 /* PSYNetworkingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSYNetworkingDemoTests.m; sourceTree = "<group>"; };
+		E6DA582123CEC13A00CB7A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6DA582623CEC13A00CB7A25 /* PSYNetworkingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSYNetworkingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DA582A23CEC13A00CB7A25 /* PSYNetworkingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSYNetworkingDemoUITests.m; sourceTree = "<group>"; };
+		E6DA582C23CEC13A00CB7A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6DA583923CEC20900CB7A25 /* PSYNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSYNetworking.h; sourceTree = "<group>"; };
+		E6DA583A23CEC20900CB7A25 /* PSYNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSYNetworking.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6DA57FD23CEC13800CB7A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD2E3DA828AC1A58506262B /* libPods-PSYNetworkingDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA581823CEC13A00CB7A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA582323CEC13A00CB7A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B061AFDFF99714941CE90D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				698477C4517796338ABEAE12 /* libPods-PSYNetworkingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF87341F92A33A7519821557 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB0256B5907DB05198B2B9 /* Pods-PSYNetworkingDemo.debug.xcconfig */,
+				CC797A76EE9889518CC9C07A /* Pods-PSYNetworkingDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6DA57F723CEC13800CB7A25 = {
+			isa = PBXGroup;
+			children = (
+				E6DA580223CEC13800CB7A25 /* PSYNetworkingDemo */,
+				E6DA581E23CEC13A00CB7A25 /* PSYNetworkingDemoTests */,
+				E6DA582923CEC13A00CB7A25 /* PSYNetworkingDemoUITests */,
+				E6DA580123CEC13800CB7A25 /* Products */,
+				CF87341F92A33A7519821557 /* Pods */,
+				3B061AFDFF99714941CE90D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6DA580123CEC13800CB7A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA580023CEC13800CB7A25 /* PSYNetworkingDemo.app */,
+				E6DA581B23CEC13A00CB7A25 /* PSYNetworkingDemoTests.xctest */,
+				E6DA582623CEC13A00CB7A25 /* PSYNetworkingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6DA580223CEC13800CB7A25 /* PSYNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA583823CEC1F800CB7A25 /* PSYNetworking */,
+				E6DA580323CEC13800CB7A25 /* AppDelegate.h */,
+				E6DA580423CEC13800CB7A25 /* AppDelegate.m */,
+				E6DA580923CEC13800CB7A25 /* ViewController.h */,
+				E6DA580A23CEC13800CB7A25 /* ViewController.m */,
+				E6DA580C23CEC13800CB7A25 /* Main.storyboard */,
+				E6DA580F23CEC13900CB7A25 /* Assets.xcassets */,
+				E6DA581123CEC13900CB7A25 /* LaunchScreen.storyboard */,
+				E6DA581423CEC13900CB7A25 /* Info.plist */,
+				E6DA581523CEC13900CB7A25 /* main.m */,
+			);
+			path = PSYNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		E6DA581E23CEC13A00CB7A25 /* PSYNetworkingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA581F23CEC13A00CB7A25 /* PSYNetworkingDemoTests.m */,
+				E6DA582123CEC13A00CB7A25 /* Info.plist */,
+			);
+			path = PSYNetworkingDemoTests;
+			sourceTree = "<group>";
+		};
+		E6DA582923CEC13A00CB7A25 /* PSYNetworkingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA582A23CEC13A00CB7A25 /* PSYNetworkingDemoUITests.m */,
+				E6DA582C23CEC13A00CB7A25 /* Info.plist */,
+			);
+			path = PSYNetworkingDemoUITests;
+			sourceTree = "<group>";
+		};
+		E6DA583823CEC1F800CB7A25 /* PSYNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA583923CEC20900CB7A25 /* PSYNetworking.h */,
+				E6DA583A23CEC20900CB7A25 /* PSYNetworking.m */,
+			);
+			name = PSYNetworking;
+			path = ../../PSYNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6DA57FF23CEC13800CB7A25 /* PSYNetworkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DA582F23CEC13A00CB7A25 /* Build configuration list for PBXNativeTarget "PSYNetworkingDemo" */;
+			buildPhases = (
+				16C68767FACB3106C615775A /* [CP] Check Pods Manifest.lock */,
+				E6DA57FC23CEC13800CB7A25 /* Sources */,
+				E6DA57FD23CEC13800CB7A25 /* Frameworks */,
+				E6DA57FE23CEC13800CB7A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSYNetworkingDemo;
+			productName = PSYNetworkingDemo;
+			productReference = E6DA580023CEC13800CB7A25 /* PSYNetworkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6DA581A23CEC13A00CB7A25 /* PSYNetworkingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DA583223CEC13A00CB7A25 /* Build configuration list for PBXNativeTarget "PSYNetworkingDemoTests" */;
+			buildPhases = (
+				E6DA581723CEC13A00CB7A25 /* Sources */,
+				E6DA581823CEC13A00CB7A25 /* Frameworks */,
+				E6DA581923CEC13A00CB7A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6DA581D23CEC13A00CB7A25 /* PBXTargetDependency */,
+			);
+			name = PSYNetworkingDemoTests;
+			productName = PSYNetworkingDemoTests;
+			productReference = E6DA581B23CEC13A00CB7A25 /* PSYNetworkingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6DA582523CEC13A00CB7A25 /* PSYNetworkingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DA583523CEC13A00CB7A25 /* Build configuration list for PBXNativeTarget "PSYNetworkingDemoUITests" */;
+			buildPhases = (
+				E6DA582223CEC13A00CB7A25 /* Sources */,
+				E6DA582323CEC13A00CB7A25 /* Frameworks */,
+				E6DA582423CEC13A00CB7A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6DA582823CEC13A00CB7A25 /* PBXTargetDependency */,
+			);
+			name = PSYNetworkingDemoUITests;
+			productName = PSYNetworkingDemoUITests;
+			productReference = E6DA582623CEC13A00CB7A25 /* PSYNetworkingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6DA57F823CEC13800CB7A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "psylife-mini";
+				TargetAttributes = {
+					E6DA57FF23CEC13800CB7A25 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E6DA581A23CEC13A00CB7A25 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E6DA57FF23CEC13800CB7A25;
+					};
+					E6DA582523CEC13A00CB7A25 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E6DA57FF23CEC13800CB7A25;
+					};
+				};
+			};
+			buildConfigurationList = E6DA57FB23CEC13800CB7A25 /* Build configuration list for PBXProject "PSYNetworkingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6DA57F723CEC13800CB7A25;
+			productRefGroup = E6DA580123CEC13800CB7A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6DA57FF23CEC13800CB7A25 /* PSYNetworkingDemo */,
+				E6DA581A23CEC13A00CB7A25 /* PSYNetworkingDemoTests */,
+				E6DA582523CEC13A00CB7A25 /* PSYNetworkingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6DA57FE23CEC13800CB7A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DA581323CEC13900CB7A25 /* LaunchScreen.storyboard in Resources */,
+				E6DA581023CEC13900CB7A25 /* Assets.xcassets in Resources */,
+				E6DA580E23CEC13800CB7A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA581923CEC13A00CB7A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA582423CEC13A00CB7A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16C68767FACB3106C615775A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSYNetworkingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6DA57FC23CEC13800CB7A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DA580B23CEC13800CB7A25 /* ViewController.m in Sources */,
+				E6DA580523CEC13800CB7A25 /* AppDelegate.m in Sources */,
+				E6DA583B23CEC20900CB7A25 /* PSYNetworking.m in Sources */,
+				E6DA581623CEC13900CB7A25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA581723CEC13A00CB7A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DA582023CEC13A00CB7A25 /* PSYNetworkingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DA582223CEC13A00CB7A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DA582B23CEC13A00CB7A25 /* PSYNetworkingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6DA581D23CEC13A00CB7A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6DA57FF23CEC13800CB7A25 /* PSYNetworkingDemo */;
+			targetProxy = E6DA581C23CEC13A00CB7A25 /* PBXContainerItemProxy */;
+		};
+		E6DA582823CEC13A00CB7A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6DA57FF23CEC13800CB7A25 /* PSYNetworkingDemo */;
+			targetProxy = E6DA582723CEC13A00CB7A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6DA580C23CEC13800CB7A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6DA580D23CEC13800CB7A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6DA581123CEC13900CB7A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6DA581223CEC13900CB7A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6DA582D23CEC13A00CB7A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6DA582E23CEC13A00CB7A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6DA583023CEC13A00CB7A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CB0256B5907DB05198B2B9 /* Pods-PSYNetworkingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ772LEHW3;
+				INFOPLIST_FILE = PSYNetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.psylife.PSYNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E6DA583123CEC13A00CB7A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC797A76EE9889518CC9C07A /* Pods-PSYNetworkingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ772LEHW3;
+				INFOPLIST_FILE = PSYNetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.psylife.PSYNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E6DA583323CEC13A00CB7A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ772LEHW3;
+				INFOPLIST_FILE = PSYNetworkingDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.psylife.PSYNetworkingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSYNetworkingDemo.app/PSYNetworkingDemo";
+			};
+			name = Debug;
+		};
+		E6DA583423CEC13A00CB7A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ772LEHW3;
+				INFOPLIST_FILE = PSYNetworkingDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.psylife.PSYNetworkingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSYNetworkingDemo.app/PSYNetworkingDemo";
+			};
+			name = Release;
+		};
+		E6DA583623CEC13A00CB7A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ772LEHW3;
+				INFOPLIST_FILE = PSYNetworkingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.psylife.PSYNetworkingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PSYNetworkingDemo;
+			};
+			name = Debug;
+		};
+		E6DA583723CEC13A00CB7A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ772LEHW3;
+				INFOPLIST_FILE = PSYNetworkingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.psylife.PSYNetworkingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PSYNetworkingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6DA57FB23CEC13800CB7A25 /* Build configuration list for PBXProject "PSYNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DA582D23CEC13A00CB7A25 /* Debug */,
+				E6DA582E23CEC13A00CB7A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DA582F23CEC13A00CB7A25 /* Build configuration list for PBXNativeTarget "PSYNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DA583023CEC13A00CB7A25 /* Debug */,
+				E6DA583123CEC13A00CB7A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DA583223CEC13A00CB7A25 /* Build configuration list for PBXNativeTarget "PSYNetworkingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DA583323CEC13A00CB7A25 /* Debug */,
+				E6DA583423CEC13A00CB7A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DA583523CEC13A00CB7A25 /* Build configuration list for PBXNativeTarget "PSYNetworkingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DA583623CEC13A00CB7A25 /* Debug */,
+				E6DA583723CEC13A00CB7A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6DA57F823CEC13800CB7A25 /* Project object */;
+}
