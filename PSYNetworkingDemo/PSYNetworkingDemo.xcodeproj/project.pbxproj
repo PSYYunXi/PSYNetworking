@@ -11,6 +11,7 @@
 		E64FB1B223D156EE005BD8FA /* bridge_artBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E64FB1AF23D156EE005BD8FA /* bridge_artBG.png */; };
 		E64FB1B323D156EE005BD8FA /* bridge_healthyBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E64FB1B023D156EE005BD8FA /* bridge_healthyBG.png */; };
 		E64FB1B423D156EE005BD8FA /* bridge_interestBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E64FB1B123D156EE005BD8FA /* bridge_interestBG.png */; };
+		E64FB1B823D16591005BD8FA /* PSYNetworking.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E64FB1B723D16590005BD8FA /* PSYNetworking.bundle */; };
 		E6DA580523CEC13800CB7A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA580423CEC13800CB7A25 /* AppDelegate.m */; };
 		E6DA580B23CEC13800CB7A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA580A23CEC13800CB7A25 /* ViewController.m */; };
 		E6DA580E23CEC13800CB7A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DA580C23CEC13800CB7A25 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		E64FB1AF23D156EE005BD8FA /* bridge_artBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge_artBG.png; sourceTree = "<group>"; };
 		E64FB1B023D156EE005BD8FA /* bridge_healthyBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge_healthyBG.png; sourceTree = "<group>"; };
 		E64FB1B123D156EE005BD8FA /* bridge_interestBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge_interestBG.png; sourceTree = "<group>"; };
+		E64FB1B723D16590005BD8FA /* PSYNetworking.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PSYNetworking.bundle; sourceTree = "<group>"; };
 		E6DA580023CEC13800CB7A25 /* PSYNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSYNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DA580323CEC13800CB7A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6DA580423CEC13800CB7A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				E6DA583E23CEF59300CB7A25 /* PSYUtils.h */,
 				E64FB1AE23D156D6005BD8FA /* images */,
 				E6DA583C23CEF56000CB7A25 /* category */,
+				E64FB1B723D16590005BD8FA /* PSYNetworking.bundle */,
 			);
 			name = PSYNetworking;
 			path = ../../PSYNetworking;
@@ -307,6 +310,7 @@
 				E64FB1B423D156EE005BD8FA /* bridge_interestBG.png in Resources */,
 				E6DA581023CEC13900CB7A25 /* Assets.xcassets in Resources */,
 				E6DA580E23CEC13800CB7A25 /* Main.storyboard in Resources */,
+				E64FB1B823D16591005BD8FA /* PSYNetworking.bundle in Resources */,
 				E64FB1B323D156EE005BD8FA /* bridge_healthyBG.png in Resources */,
 				E64FB1B223D156EE005BD8FA /* bridge_artBG.png in Resources */,
 			);

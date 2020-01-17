@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "PSYNetworking"
-  spec.version      = "0.1.8"
+  spec.version      = "0.1.9"
   spec.summary      = "this is for psylifers"
   spec.homepage     = "https://github.com/PSYYunXi/PSYNetworking"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
   end
   
   spec.subspec "images" do |si|
-  si.resources   = "PSYNetworking/images/*.*"
+  si.resources   = "PSYNetworking/*.*"
   end
 end
