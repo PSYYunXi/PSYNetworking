@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "PSYNetworking"
-  spec.version      = "0.1.7"
+  spec.version      = "0.1.8"
   spec.summary      = "this is for psylifers"
   spec.homepage     = "https://github.com/PSYYunXi/PSYNetworking"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -18,5 +18,9 @@ Pod::Spec.new do |spec|
   spec.subspec "category" do |ss|
   ss.source_files = "PSYNetworking/category/*.*"
   ss.dependency "AFNetworking", "~> 3.2.1"
+  end
+  
+  spec.subspec "images" do |si|
+  si.source_files   = "PSYNetworking/images/*.*"
   end
 end

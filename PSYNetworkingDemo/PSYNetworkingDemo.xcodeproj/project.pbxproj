@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2FD2E3DA828AC1A58506262B /* libPods-PSYNetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 698477C4517796338ABEAE12 /* libPods-PSYNetworkingDemo.a */; };
+		E64FB1B223D156EE005BD8FA /* bridge_artBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E64FB1AF23D156EE005BD8FA /* bridge_artBG.png */; };
+		E64FB1B323D156EE005BD8FA /* bridge_healthyBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E64FB1B023D156EE005BD8FA /* bridge_healthyBG.png */; };
+		E64FB1B423D156EE005BD8FA /* bridge_interestBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E64FB1B123D156EE005BD8FA /* bridge_interestBG.png */; };
 		E6DA580523CEC13800CB7A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA580423CEC13800CB7A25 /* AppDelegate.m */; };
 		E6DA580B23CEC13800CB7A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA580A23CEC13800CB7A25 /* ViewController.m */; };
 		E6DA580E23CEC13800CB7A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DA580C23CEC13800CB7A25 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 		698477C4517796338ABEAE12 /* libPods-PSYNetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PSYNetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CB0256B5907DB05198B2B9 /* Pods-PSYNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSYNetworkingDemo.debug.xcconfig"; path = "Target Support Files/Pods-PSYNetworkingDemo/Pods-PSYNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CC797A76EE9889518CC9C07A /* Pods-PSYNetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSYNetworkingDemo.release.xcconfig"; path = "Target Support Files/Pods-PSYNetworkingDemo/Pods-PSYNetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E64FB1AF23D156EE005BD8FA /* bridge_artBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge_artBG.png; sourceTree = "<group>"; };
+		E64FB1B023D156EE005BD8FA /* bridge_healthyBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge_healthyBG.png; sourceTree = "<group>"; };
+		E64FB1B123D156EE005BD8FA /* bridge_interestBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge_interestBG.png; sourceTree = "<group>"; };
 		E6DA580023CEC13800CB7A25 /* PSYNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSYNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DA580323CEC13800CB7A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6DA580423CEC13800CB7A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +111,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E64FB1AE23D156D6005BD8FA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E64FB1AF23D156EE005BD8FA /* bridge_artBG.png */,
+				E64FB1B023D156EE005BD8FA /* bridge_healthyBG.png */,
+				E64FB1B123D156EE005BD8FA /* bridge_interestBG.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		E6DA57F723CEC13800CB7A25 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				E6DA583E23CEF59300CB7A25 /* PSYUtils.h */,
+				E64FB1AE23D156D6005BD8FA /* images */,
 				E6DA583C23CEF56000CB7A25 /* category */,
 			);
 			name = PSYNetworking;
@@ -287,8 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6DA581323CEC13900CB7A25 /* LaunchScreen.storyboard in Resources */,
+				E64FB1B423D156EE005BD8FA /* bridge_interestBG.png in Resources */,
 				E6DA581023CEC13900CB7A25 /* Assets.xcassets in Resources */,
 				E6DA580E23CEC13800CB7A25 /* Main.storyboard in Resources */,
+				E64FB1B323D156EE005BD8FA /* bridge_healthyBG.png in Resources */,
+				E64FB1B223D156EE005BD8FA /* bridge_artBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
