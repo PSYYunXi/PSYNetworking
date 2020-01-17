@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
   end
   
   spec.subspec "images" do |si|
-  si.source_files   = "PSYNetworking/images/*.*"
+  si.resources   = "PSYNetworking/images/*.*"
   end
 end
